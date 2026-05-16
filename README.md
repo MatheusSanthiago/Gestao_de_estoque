@@ -92,6 +92,7 @@ Novas funcionalidades serão adicionadas futuramente.
 
 ## 👨‍💻 Autor
 
+Desenvolvido por **Matheus Santhiago Fortonato de Souza**.
 Desenvolvido por **Riquelmy Christofer**.
 
 ---
