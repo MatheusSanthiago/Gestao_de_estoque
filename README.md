@@ -1,160 +1,103 @@
 <div align="center">
 
-<img src="https://cdn-icons-png.flaticon.com/512/3081/3081559.png" width="140">
+# 📦 Gestão de Estoque
 
-# GESTÃO DE ESTOQUE
+### Sistema web para gerenciamento e organização de estoque
 
-### Sistema Inteligente de Controle e Gerenciamento de Produtos
-
-<p>
-  <img src="https://img.shields.io/badge/Java-21-red?style=for-the-badge&logo=openjdk">
-  <img src="https://img.shields.io/badge/Spring_Boot-Framework-green?style=for-the-badge&logo=springboot">
-  <img src="https://img.shields.io/badge/MySQL-Database-blue?style=for-the-badge&logo=mysql">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-success?style=for-the-badge">
-</p>
+![Java](https://img.shields.io/badge/Java-21-red)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-green)
+![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
+![Status](https://img.shields.io/badge/Status-Em_Desenvolvimento-success)
 
 </div>
 
 ---
 
-## 🚀 Sobre o Projeto
+## 📖 Sobre o Projeto
 
-O <strong>Gestão de Estoque</strong> é uma aplicação web desenvolvida com Java e Spring Boot, criada para facilitar o gerenciamento de produtos, controle de entradas e saídas e organização de estoque empresarial.
+O **Gestão de Estoque** é um sistema web desenvolvido com Java e Spring Boot, criado com o objetivo de auxiliar no controle e organização de produtos.
 
-O sistema segue o padrão arquitetural <strong>MVC (Model-View-Controller)</strong>, proporcionando maior organização, manutenção e escalabilidade da aplicação.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-<ul>
-  <li>Java 21</li>
-  <li>Spring Boot</li>
-  <li>Spring MVC</li>
-  <li>Thymeleaf</li>
-  <li>MySQL</li>
-  <li>HTML5 & CSS3</li>
-  <li>Bootstrap</li>
-  <li>Maven</li>
-  <li>Git & GitHub</li>
-</ul>
+O projeto está sendo desenvolvido utilizando boas práticas de desenvolvimento web, arquitetura organizada e integração com banco de dados relacional.
 
 ---
 
-## 📋 Funcionalidades
+## 🚀 Tecnologias Utilizadas
 
-✅ Cadastro de produtos
-✅ Controle de estoque
-✅ Atualização de quantidades
-✅ Gerenciamento de usuários
-✅ Interface responsiva
-✅ Persistência de dados
-✅ Arquitetura MVC
-✅ Sistema de autenticação
-
----
-
-## 🧩 Estrutura do Projeto
-
-O projeto está sendo desenvolvido utilizando Java com Spring Boot, seguindo uma estrutura simples e organizada para futuras implementações.
-
-### 📁 Pastas Utilizadas
-
-* `src/` → Código principal do projeto
-* `templates/` → Páginas HTML
-* `static/` → Arquivos CSS, JS e imagens
-* `pom.xml` → Dependências Maven
-
----|---|
-| `controller/` | Gerenciamento das rotas e requisições HTTP |
-| `service/` | Regras de negócio e processamento interno |
-| `repository/` | Comunicação e persistência com banco de dados |
-| `model/` | Estruturas e entidades da aplicação |
-| `templates/` | Interfaces HTML renderizadas pelo Thymeleaf |
-| `static/` | Arquivos estáticos como CSS, JS e imagens |
-
-### 🏗️ Arquitetura Aplicada
-
-A aplicação utiliza:
-
-* Arquitetura MVC;
-* Persistência com MySQL;
-* Spring Data JPA;
-* Separação em camadas;
-* Integração entre backend e frontend;
-* Estrutura modular para futuras expansões.
+* Java 21
+* Spring Boot
+* Spring MVC
+* Thymeleaf
+* MySQL
+* Maven
+* HTML5
+* CSS3
+* Git e GitHub
 
 ---
 
-## ⚙️ Instalação
+## 📁 Estrutura do Projeto
 
-### 1️⃣ Clone o repositório
+O projeto possui uma estrutura simples e organizada para facilitar futuras implementações.
 
-bash
+| Pasta/Arquivo | Descrição                     |
+| ------------- | ----------------------------- |
+| `src/`        | Código principal da aplicação |
+| `templates/`  | Páginas HTML do sistema       |
+| `static/`     | Arquivos CSS, JS e imagens    |
+| `pom.xml`     | Dependências Maven do projeto |
+
+---
+
+## ⚙️ Configuração do Projeto
+
+### Clonar o repositório
+
+```bash
 git clone <URL_DO_REPOSITORIO>
+```
 
-### 2️⃣ Acesse o diretório do projeto
+### Acessar o projeto
 
-bash
-cd Gestão_Estoque
+```bash
+cd gestao
+```
 
-### 3️⃣ Configure o banco MySQL
+### Executar a aplicação
 
-properties
-spring.datasource.url=jdbc:mysql://localhost:3306/gestao_estoque
-spring.datasource.username=root
-spring.datasource.password=senha
-
-### 4️⃣ Execute o projeto
-
-bash
+```bash
 mvn spring-boot:run
+```
 
 ---
 
-## 💻 Como Utilizar
+## 💻 Objetivo
 
-1. Inicie a aplicação;
-2. Abra o navegador;
-3. Faça login no sistema;
-4. Cadastre produtos;
-5. Gerencie entradas e saídas do estoque.
-
----
-
-## 🎯 Objetivo do Projeto
-
-Este projeto possui finalidade acadêmica e profissional, aplicando conceitos modernos de:
+O objetivo do projeto é aplicar conceitos de:
 
 * Desenvolvimento Web;
+* Java com Spring Boot;
+* Integração com banco de dados;
 * Arquitetura MVC;
-* Persistência de Dados;
-* Engenharia de Software;
-* Controle e Gestão de Estoque.
+* Organização de projetos profissionais.
 
 ---
 
-## 🔮 Melhorias Futuras
+## 📌 Status do Projeto
 
-📌 Dashboard administrativo
-📌 Relatórios em PDF
-📌 API REST
-📌 Controle de permissões
-📌 Integração com JWT
-📌 Auditoria de movimentações
+🚧 Projeto em desenvolvimento.
+
+Novas funcionalidades serão adicionadas futuramente.
 
 ---
 
 ## 👨‍💻 Autor
 
-<strong>Riquelmy Christofer</strong>
-
-Projeto desenvolvido para fins acadêmicos e profissionais.
+Desenvolvido por **Riquelmy Christofer**.
 
 ---
 
 <div align="center">
 
-### ⭐ Se gostou do projeto, deixe uma estrela no repositório!
+### ⭐ Projeto acadêmico desenvolvido para estudos e prática profissional.
 
 </div>
